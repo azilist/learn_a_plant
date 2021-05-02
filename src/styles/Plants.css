@@ -1,0 +1,201 @@
+/* .overallBody {
+	text-align: center;
+} */
+
+.bodyContent {
+	background-image: url(/src/photos/monsteraLeaves.jpg);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	min-height: 65rem;
+	position: relative;
+}
+.Card {
+	margin: auto;
+	border-radius: 33% !important;
+}
+.cardHeader {
+	font-family: "Dawning of a New Day", cursive;
+	padding: 10px;
+}
+
+#hr {
+	border-color: goldenrod;
+}
+
+.commonNameHeader {
+	text-transform: capitalize;
+	font-family: "Amatic SC", cursive;
+}
+
+.scientificNameHeader {
+	font-family: "Amatic SC", cursive;
+	padding-bottom: 1rem;
+}
+
+.buttonLinks {
+	font-family: "Dawning of a New Day", cursive;
+	font-size: 24px;
+	margin: 20px;
+}
+
+#googleButton {
+	background-color: white;
+	font-size: 1.4rem;
+	color: black;
+	margin-right: 10px;
+}
+#googleButton:hover {
+	background-color: black;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#popoverButton {
+	background-color: white;
+	font-size: 1.4rem;
+	color: black;
+	margin: 0 15px;
+}
+#popoverButton:hover {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#nextButton {
+	font-family: "Amatic SC", cursive;
+	font-size: 1.6rem;
+	background-color: white;
+	color: black;
+}
+#nextButton:active {
+	background-color: black;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.plantImage {
+	width: 90%;
+}
+
+@media (min-width: 220px) {
+	.Card {
+		width: 90%;
+	}
+	span {
+		height: 8.5rem;
+	}
+	.cardHeader {
+		padding: 0.5rem;
+	}
+	.bodyContent {
+		background-size: cover;
+	}
+}
+@media (min-width: 450px) {
+	.Card {
+		width: 60%;
+	}
+	span {
+		height: 12rem;
+	}
+	.bodyContent {
+		background-size: cover;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 770px) {
+	.Card {
+		width: 100%;
+	}
+	span {
+		height: 8rem;
+	}
+}
+
+@media (min-width: 580px) {
+	.Card {
+		width: 35%;
+	}
+	span {
+		height: 12rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.Card {
+		width: 48%;
+		min-height: 400px;
+	}
+	span {
+		height: 16rem;
+	}
+	.bodyContent {
+		min-height: 65rem;
+	}
+}
+
+@media only screen and (device-width: 1024px) and (device-height: 1366px) {
+	.bodyContent {
+		min-height: 90rem !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.Card {
+		width: 40%;
+		height: 400px;
+	}
+	span {
+		height: 15rem;
+	}
+	.bodyContent {
+		min-height: 76rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	.Card {
+		width: 35%;
+	}
+	span {
+		height: 14rem;
+	}
+}
+
+span {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#popoverTitle {
+	font-size: 27px;
+	font-family: "Amatic SC", cursive !important;
+	text-align: center;
+}
+#popoverImg {
+	text-align: center;
+}
+#spinner {
+	margin: auto;
+	padding: 600px;
+}
+
+/* //MEDIA QUERY NOTES// */
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
+
+/* FONTS */
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Dawning of a New Day', cursive; */
